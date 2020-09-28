@@ -1,0 +1,79 @@
+body{
+    font-family: Monospace, Helvetica, sans-serif;
+    font-size: 50px;
+    background-image: url("cn.png");
+    background-color:lightgreen;
+    color:  #800080;   
+}
+.nav{
+  
+    background: #7386D5;
+    color:#400080;
+}
+.nav-link{
+    color: #800080;
+    font-family: Monospace, Helvetica, sans-serif;
+}
+button {
+  width: 50px;
+  height: 80px;
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 0 40px;
+  border: none;
+}
+button:hover {
+  background: rgb(200, 200, 255);
+}
+p {
+  display: inline;
+}
+
+p + button {
+width: auto;
+height: auto;
+}
+
+#button-holder {
+  display: flex;
+  width: 725px;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#color-picker{
+    width: 400px;
+    height: 100px;
+}
+.chartcontainer {
+	width: 100%;
+	height: 400px;
+	background: white;
+}
+
+.datagrabber {
+	
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	
+
+}
+
+.menuitem {
+	height: 40px;
+	margin-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#home-string{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <link rel="stylesheet" href="styles/style.css">
+            <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <script src="scripts/led_display.js"></script>
+            <title>Led Display</title>
+    </head>
+    <body>
+        <div id=color-select class="container-fluid">
+            <div class="row justify-content-center">
+                <h1>Select Color</h1>
+            </div>
+            <div class="row justify-content-center" width="300px">
+                <input name="Color Picker" id="color-picker" type="color" onchange="pickColor()"/>
+            </div>
+        </div>
+        <div class="container-fluid" id=button-holder>
+        </div>
+        <div id=color-select class="container-fluid">
+            <div class="row justify-content-center">
+                <button style="background-color:purple; color:green; width:400px;" id="reset-button">reset</button>
+            </div>
+        </div>
+
+    </body>
+</html>
